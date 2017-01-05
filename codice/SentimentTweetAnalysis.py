@@ -22,3 +22,11 @@ b = Confronto(1,1)
 c = Confronto(90,1)
 
 print("Primo valore",a,"Secondo Valore",b,"Terzo Valore",c)
+
+
+def NRigheVuote(n):
+    while (n != 0):
+        print("",".")
+        n = n - 1
+
+NRigheVuote(10)
