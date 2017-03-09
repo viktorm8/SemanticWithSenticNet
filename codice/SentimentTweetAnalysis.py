@@ -12,7 +12,7 @@
 #Copyright 2017 - Tutti i diritti riservati
 
 import tweepy
-from textblob import textblob
+from textblob import TextBlob
 
 consumer_key = 'uAzSRIhykkh38dbD9f3rftHvJ'
 consumer_secret = 'xQbzXVy5cjz5P6feg6b3sIhMtYcbcnhSXzFsI8I4v2rTERpjlk'
