@@ -28,6 +28,7 @@ api = tweepy.API(auth)
 public_tweets = api.search('Cyber Security')
 #public_tweets = api.home_timeline()
 
+
 for tweet in public_tweets:
     print(tweet.text,"\n")
     analysis = TextBlob(tweet.text)
