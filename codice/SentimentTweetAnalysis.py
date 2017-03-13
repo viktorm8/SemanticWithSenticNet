@@ -25,9 +25,10 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.search('Trump')
+public_tweets = api.search('Cyber Security')
+#public_tweets = api.home_timeline()
 
 for tweet in public_tweets:
-    print(tweet.text)
+    print(tweet.text,"\n")
     analysis = TextBlob(tweet.text)
-    print(analysis.sentiment)
+    print(analysis.sentiment,"\n\n\n")
